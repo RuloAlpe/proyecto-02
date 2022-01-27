@@ -24,3 +24,8 @@ Cuando la aplicacion este corriendo localmente, hacer una llamada Get al siguien
 ```
 http://localhost:${port}/api/search?q=Londo&latitude=43.70011&longitude=-79.4163
 ```
+
+### TODO
+```
+Calcular score de ciudades sugeridas.
+```
