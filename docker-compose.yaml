@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  api:
+    build: .
+    container_name: search_cities
+    ports:
+      - "3050:3050"
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    environment:
+      - SERVER_PORT=3050
